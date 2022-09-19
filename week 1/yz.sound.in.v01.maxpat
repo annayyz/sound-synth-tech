@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 112.0, 921.0, 719.0 ],
+		"rect" : [ 412.0, 102.0, 921.0, 719.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -105,7 +105,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 184.862535536289215, 523.664158344268799, 118.0, 22.0 ],
-					"text" : "expr ($i1 - 128) * 0.6"
+					"text" : "expr ($i1 - 127) * 0.6"
 				}
 
 			}
@@ -209,7 +209,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 424.769469141960144, 339.838783740997314, 68.248175621032715, 20.0 ],
+					"patching_rect" : [ 424.769469141960144, 339.838783740997314, 70.0, 20.0 ],
 					"text" : "<playlist~> "
 				}
 
@@ -603,9 +603,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }

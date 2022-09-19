@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 156.0, 134.0, 166.0, 187.0 ],
+		"rect" : [ 1137.0, 581.0, 166.0, 187.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -64,14 +64,14 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "yz.sound.in.v01.maxpat",
-				"bootpath" : "~/Desktop/Sound Synth. Tech/class/week 1",
+				"bootpath" : "~/Desktop/Sound Synth. Tech old/class/sound-synth-tech/week 1",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yz.sound.out.v01.maxpat",
-				"bootpath" : "~/Desktop/Sound Synth. Tech/class/week 1",
+				"bootpath" : "~/Desktop/Sound Synth. Tech old/class/sound-synth-tech/week 1",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
