@@ -272,7 +272,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.0, 159.0, 182.0, 20.0 ],
+					"patching_rect" : [ 240.0, 159.0, 183.0, 20.0 ],
 					"text" : "<initial>, list of target/value pairs "
 				}
 

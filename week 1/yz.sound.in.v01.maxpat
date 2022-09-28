@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 495.0, 415.0, 150.0, 47.0 ],
+					"text" : "adc: microphone input \nplaylist: music file\n"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-67",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -217,8 +229,20 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 0,
+					"clipheight" : 65.2748122215271,
 					"data" : 					{
-						"clips" : [  ]
+						"clips" : [ 							{
+								"absolutepath" : "/Users/anna/Desktop/Sound Synth. Tech old/class/media/648437__timouse__piano-loop-21.wav",
+								"filename" : "648437__timouse__piano-loop-21.wav",
+								"filekind" : "audiofile",
+								"id" : "u187002022",
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+ ]
 					}
 ,
 					"followglobaltempo" : 0,
@@ -232,7 +256,7 @@
 					"originaltempo" : 0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 383.893556952476501, 243.018247008323669, 150.0, 92.0 ],
+					"patching_rect" : [ 383.893556952476501, 243.018247008323669, 425.0, 66.2748122215271 ],
 					"pitchcorrection" : 0,
 					"quality" : 0,
 					"timestretch" : [ 0 ]
@@ -270,7 +294,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 588.439176082611084, 229.197079062461853, 77.737226665019989, 33.0 ],
+					"patching_rect" : [ 573.439176082611084, 207.638684988021851, 77.737226665019989, 33.0 ],
 					"text" : "<click~> click "
 				}
 
@@ -401,7 +425,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 181.362535536289215, 213.138684988021851, 332.813867211341858, 22.0 ],
+					"patching_rect" : [ 181.362535536289215, 213.138684988021851, 333.257899761199951, 22.0 ],
 					"text" : "selector~ 5"
 				}
 
@@ -556,7 +580,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 2 ],
-					"midpoints" : [ 393.393556952476501, 465.372261822223663, 136.437956631183624, 465.372261822223663, 136.437956631183624, 245.372262358665466, 135.729927003383636, 245.372262358665466, 135.729927003383636, 206.372262358665466, 316.388082420825981, 206.372262358665466 ],
+					"midpoints" : [ 393.393556952476501, 465.372261822223663, 136.437956631183624, 465.372261822223663, 136.437956631183624, 245.372262358665466, 135.729927003383636, 245.372262358665466, 135.729927003383636, 206.372262358665466, 316.565695440769218, 206.372262358665466 ],
 					"source" : [ "obj-34", 0 ]
 				}
 
@@ -603,7 +627,16 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "648437__timouse__piano-loop-21.wav",
+				"bootpath" : "~/Desktop/Sound Synth. Tech old/class/media",
+				"patcherrelativepath" : "../../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
