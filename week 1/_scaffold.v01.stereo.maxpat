@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1156.0, 219.0, 166.0, 187.0 ],
+		"rect" : [ 728.0, 392.0, 166.0, 187.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -63,6 +63,13 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
+				"name" : "648437__timouse__piano-loop-21.wav",
+				"bootpath" : "~/Desktop/Sound Synth. Tech old/class/media",
+				"patcherrelativepath" : "../../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "yz.sound.in.v01.maxpat",
 				"bootpath" : "~/Desktop/Sound Synth. Tech old/class/sound-synth-tech/week 1",
 				"patcherrelativepath" : ".",
