@@ -97,6 +97,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "Vn-jette-E5-mf.aif",
+				"bootpath" : "~/Desktop/Sound Synth. Tech old/class/media",
+				"patcherrelativepath" : "../../media",
+				"type" : "AIFF",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "spat5.oper.mxo",
 				"type" : "iLaX"
 			}

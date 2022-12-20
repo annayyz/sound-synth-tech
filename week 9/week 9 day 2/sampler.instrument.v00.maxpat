@@ -1072,7 +1072,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 213.5, 203.0, 490.0, 93.0 ],
-					"setmode" : 1,
+					"setmode" : 3,
 					"ticks" : 8,
 					"vlabels" : 1
 				}
@@ -1478,7 +1478,36 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-16" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-4" : [ "live.drop[4]", "live.drop", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "wfknob.png",
+				"bootpath" : "C74:/media/max/picts",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "wfmodes.png",
+				"bootpath" : "C74:/media/max/picts",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

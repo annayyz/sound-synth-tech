@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 728.0, 392.0, 166.0, 187.0 ],
+		"rect" : [ 624.0, 235.0, 221.0, 172.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,23 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.925490196078431, 0.811764705882353, 0.082352941176471, 1.0 ],
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 39.0, 26.0, 81.0, 22.0 ],
+					"text" : "yz.midi.in.v01"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.0, 118.0, 99.0, 22.0 ],
+					"patching_rect" : [ 39.0, 86.0, 99.0, 22.0 ],
 					"text" : "yz.sound.out.v01"
 				}
 
@@ -63,10 +75,17 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
-				"name" : "648437__timouse__piano-loop-21.wav",
+				"name" : "Vn-jette-E5-mf.aif",
 				"bootpath" : "~/Desktop/Sound Synth. Tech old/class/media",
 				"patcherrelativepath" : "../../media",
-				"type" : "WAVE",
+				"type" : "AIFF",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "yz.midi.in.v01.maxpat",
+				"bootpath" : "~/Desktop/Sound Synth. Tech old/class/sound-synth-tech/week 1",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
